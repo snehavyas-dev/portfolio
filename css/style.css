@@ -511,19 +511,16 @@ body::before {
 }
 
 .hero-container{
-    display:flex;
-    align-items:center;
+    display:grid;
+    grid-template-columns:minmax(0, 580px) minmax(350px, 500px);
     justify-content:space-between;
-
-    gap:60px;
-
-    width:100%;
+    align-items:center;
+    gap:80px;
 }
 
 .hero-content{
-    flex:1;
-    max-width:600px;
-    margin-left: 130px;
+    width:100%;
+    max-width:580px;
 }
 
 .hero-content h1 {
