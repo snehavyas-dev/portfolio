@@ -523,6 +523,7 @@ body::before {
 .hero-content{
     flex:1;
     max-width:600px;
+    margin-left: 130px;
 }
 
 .hero-content h1 {
@@ -611,11 +612,11 @@ body::before {
 
 .hero-buttons {
 
-    display: flex;
+    display: inline;
 
     gap: 18px;
 
-    justify-content: flex-start;
+    justify-content: left;
 
     flex-wrap:wrap;
 
