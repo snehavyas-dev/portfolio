@@ -12,6 +12,13 @@
     <!-- Website Title -->
     <title>Sneha | Portfolio</title>
 
+    <meta name="description" content="Sneha is a Computer Science Engineering student building responsive and user-friendly web experiences with HTML, CSS, and JavaScript.">
+    <link rel="canonical" href="https://snehavyas-dev.github.io/sneha-vyas-dev-portfolio/">
+    <meta property="og:title" content="Sneha | Frontend Developer Portfolio">
+    <meta property="og:description" content="Explore Sneha's frontend projects, skills, and contact details.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://snehavyas-dev.github.io/sneha-vyas-dev-portfolio/">
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -24,6 +31,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -43,7 +51,7 @@
 
                 <!-- Logo -->
 
-                <a href="#" class="logo">
+                <a href="#home" class="logo">
 
                     <span class="logo-text">Sneha</span>
 
@@ -57,7 +65,7 @@
 
                 <!-- Hamburger -->
 
-                <label for="menu-toggle" class="hamburger">
+                <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
 
                     <span></span>
                     <span></span>
@@ -95,10 +103,10 @@
 
                 </ul>
 
-                <!-- Resume Button -->
+                <!-- Contact CTA -->
 
-                <a href="#" class="primary-btn">
-                    Resume
+                <a href="#contact" class="primary-btn">
+                    Let's Connect
                 </a>
 
             </nav>
@@ -114,6 +122,8 @@
     <!-- ==========================================
      HERO SECTION
 ========================================== -->
+
+    <main>
 
     <section id="home" class="hero">
 
@@ -133,9 +143,7 @@
                 </h1>
 
                 <p>
-                    Passionate Computer Science Engineering student creating
-                    modern, responsive, and user-friendly websites
-                    with HTML & CSS.
+                    B.E. Computer Science Engineering student building modern, responsive and interactive web experiences with HTML, CSS and JavaScript.
                 </p>
 
                 <div class="hero-buttons">
@@ -177,6 +185,8 @@
 
             </div>
 
+        </div>
+
     </section>
 
     <section class="journey">
@@ -201,7 +211,7 @@
                         <i class="fa-solid fa-briefcase"></i>
                     </div>
 
-                    <h3>3+</h3>
+                    <h3>8+</h3>
 
                     <h4>Projects</h4>
 
@@ -217,13 +227,13 @@
                         <i class="fa-solid fa-award"></i>
                     </div>
 
-                    <h3>5+</h3>
+                    <h3>4</h3>
 
-                    <h4>Certificates</h4>
+                    <h4>Core Skills</h4>
 
                     <div class="mini-line"></div>
 
-                    <p>Professional certifications completed.</p>
+                    <p>HTML, CSS, JavaScript, and Git.</p>
 
                 </div>
 
@@ -233,13 +243,13 @@
                         <i class="fa-solid fa-display"></i>
                     </div>
 
-                    <h3>100%</h3>
+                    <h3>3</h3>
 
-                    <h4>Responsive</h4>
+                    <h4>Featured Projects</h4>
 
                     <div class="mini-line"></div>
 
-                    <p>Looks perfect on every screen size.</p>
+                    <p>Frontend projects built for the web.</p>
 
                 </div>
 
@@ -261,7 +271,7 @@
 
             <div class="about-image">
 
-                <img src="images/background/about-portfolio-img.jpg" alt="About Illustration">
+                <img src="images/background/about-portfolio-img.jpg" alt="Illustration representing frontend development">
 
             </div>
 
@@ -315,7 +325,7 @@
                 <i class="fa-solid fa-laptop-code"></i>
                 <h3>💼 Projects</h3>
 
-                <p>5+ Responsive Websites</p>
+                <p>3 Featured Projects</p>
 
             </div>
 
@@ -344,14 +354,14 @@
             <h2>Technologies I Work With</h2>
 
             <p class="section-description">
-                Building modern, responsive and user-friendly websites using the latest web technologies.
+                Building modern, responsive and user-friendly websites with the web technologies I am currently practicing.
             </p>
 
             <div class="skills-grid">
 
                 <div class="skill-card">
 
-                    <img src="images/icons/html.svg" alt="HTML">
+                    <i class="skill-icon fa-brands fa-html5" aria-hidden="true"></i>
 
                     <h3>HTML5</h3>
 
@@ -361,7 +371,7 @@
 
                 <div class="skill-card">
 
-                    <img src="images/icons/css.svg" alt="CSS">
+                    <i class="skill-icon fa-brands fa-css3-alt" aria-hidden="true"></i>
 
                     <h3>CSS3</h3>
 
@@ -371,7 +381,7 @@
 
                 <div class="skill-card">
 
-                    <img src="images/icons/javascript.svg" alt="JavaScript">
+                    <i class="skill-icon fa-brands fa-js" aria-hidden="true"></i>
 
                     <h3>JavaScript</h3>
 
@@ -381,7 +391,7 @@
 
                 <div class="skill-card">
 
-                    <img src="images/icons/git.svg" alt="Git">
+                    <i class="skill-icon fa-brands fa-git-alt" aria-hidden="true"></i>
 
                     <h3>Git & GitHub</h3>
 
@@ -585,11 +595,11 @@
 
                         <div class="project-buttons">
 
-                            <a href="https://snehavyas-dev.github.io/snapbite-restaurant-website/" class="primary-btn" target="_blank">
+                            <a href="https://snehavyas-dev.github.io/snapbite-restaurant-website/" class="primary-btn" target="_blank" rel="noopener noreferrer">
                                 Live Demo
                             </a>
 
-                            <a href="https://github.com/snehavyas-dev/snapbite-restaurant-website" class="secondary-btn" target="_blank">
+                            <a href="https://github.com/snehavyas-dev/snapbite-restaurant-website" class="secondary-btn" target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </a>
 
@@ -641,11 +651,11 @@
 
                         <div class="project-buttons">
 
-                            <a href="https://snehavyas-dev.github.io/sneha-vyas-dev-portfolio/" class="primary-btn" target="_blank">
+                            <a href="https://snehavyas-dev.github.io/sneha-vyas-dev-portfolio/" class="primary-btn" target="_blank" rel="noopener noreferrer">
                                 Live Demo
                             </a>
 
-                            <a href="https://github.com/snehavyas-dev/sneha-vyas-dev-portfolio" class="secondary-btn" target="_blank">
+                            <a href="https://github.com/snehavyas-dev/sneha-vyas-dev-portfolio" class="secondary-btn" target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </a>
 
@@ -654,6 +664,16 @@
                     </div>
 
                 </article>
+
+            </div>
+
+            <div class="projects-cta">
+
+                <p>Want to explore more of my work?</p>
+
+                <a href="https://github.com/snehavyas-dev" class="primary-btn" target="_blank" rel="noopener noreferrer">
+                    View All Projects on GitHub <span aria-hidden="true">&#8594;</span>
+                </a>
 
             </div>
 
@@ -721,15 +741,19 @@
 
                 <!-- Right -->
 
-                <form class="contact-form">
+                <form class="contact-form" action="mailto:snehavyas250@gmail.com" method="post" enctype="text/plain">
 
-                    <input type="text" placeholder="Your Name">
+                    <label for="contact-name">Your Name</label>
+                    <input id="contact-name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
 
-                    <input type="email" placeholder="Email Address">
+                    <label for="contact-email">Email Address</label>
+                    <input id="contact-email" name="email" type="email" placeholder="Email Address" autocomplete="email" required>
 
-                    <input type="text" placeholder="Subject">
+                    <label for="contact-subject">Subject</label>
+                    <input id="contact-subject" name="subject" type="text" placeholder="Subject" required>
 
-                    <textarea rows="6" placeholder="Your Message"></textarea>
+                    <label for="contact-message">Your Message</label>
+                    <textarea id="contact-message" name="message" rows="6" placeholder="Your Message" required></textarea>
 
                     <button type="submit" class="primary-btn">
 
@@ -759,7 +783,7 @@
 
                 <div class="footer-left">
 
-                    <a href="#" class="logo">
+                    <a href="#home" class="logo">
 
                         <span class="logo-text">Sneha</span>
 
@@ -830,21 +854,21 @@
                     <ul>
 
                         <li>
-                            <a href="https://www.linkedin.com/in/sneha-vyas-94a0bb3a3/" target="_blank">
+                            <a href="https://www.linkedin.com/in/sneha-vyas-94a0bb3a3/" target="_blank" rel="noopener noreferrer" aria-label="Sneha on LinkedIn">
                                 <i class="fa-brands fa-linkedin"></i>
                                 LinkedIn
                             </a>
                         </li>
 
                         <li>
-                            <a href="https://github.com/snehavyas-dev" target="_blank">
+                            <a href="https://github.com/snehavyas-dev" target="_blank" rel="noopener noreferrer" aria-label="Sneha on GitHub">
                                 <i class="fa-brands fa-github"></i>
                                 GitHub
                             </a>
                         </li>
 
                         <li>
-                            <a href="https://instagram.com/sneha_webdev_102" target="_blank">
+                            <a href="https://instagram.com/sneha_webdev_102" target="_blank" rel="noopener noreferrer" aria-label="Sneha on Instagram">
                                 <i class="fa-brands fa-instagram"></i>
                                 Instagram
                             </a>
@@ -868,11 +892,7 @@
 
     </footer>
 
-    <main>
-
     </main>
-
-
 
 </body>
 
